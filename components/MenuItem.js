@@ -1,15 +1,14 @@
-import Link from 'next/link';
 import menuStyles from '../styles/Menu.module.css';
 
 const MenuItem = ({ item }) => {
   return (
-    <Link href='/item/[id]' as={`/item/${item.id}`}>
-      <a className={menuStyles.card}>
-        <h3>{item.title} &rarr;</h3>
-        <p>{item.excerpt}</p>
-        <p>{item.description}</p>
-      </a>
-    </Link>
+    <div className={menuStyles.grid}>
+      <ul className={menuStyles.card}>
+        <li>{item.title}</li>
+        <li>{item.description}</li>
+        <li>{item.price}</li>
+      </ul>
+    </div>
   );
 };
 

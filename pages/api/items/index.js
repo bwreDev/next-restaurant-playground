@@ -1,5 +1,17 @@
-import { items } from '../../../data';
+import {
+  appetizers,
+  salads,
+  entrees,
+  pastas,
+  burgers,
+  sandwiches,
+  tacos,
+  pizzas,
+  subs,
+  kids,
+  desserts,
+} from '../../../data';
 
 export default function handler(req, res) {
-  res.status(200).json(items);
+  res.status(200).json(appetizers);
 }
