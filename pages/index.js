@@ -1,21 +1,9 @@
-import { server } from '../config';
 import MenuList from '../components/MenuList';
 
-export default function Home({ appetizers }) {
+export default function Home() {
   return (
     <div>
-      <MenuList items={appetizers} />
+      <h1>Go to /menu</h1>
     </div>
   );
 }
-
-export const getStaticProps = async () => {
-  const res = await fetch(`${server}/api/items`);
-  const appetizers = await res.json();
-
-  return {
-    props: {
-      appetizers,
-    },
-  };
-};

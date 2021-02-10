@@ -120,7 +120,7 @@ export const appetizers = [
 
 export const salads = [
   {
-    id: '1',
+    id: '14',
     img: '',
     alt: '',
     title: 'Oak Grilled Salmon Salad',
@@ -129,7 +129,7 @@ export const salads = [
     price: '18',
   },
   {
-    id: '2',
+    id: '15',
     img: '',
     alt: '',
     title: 'Oak Grilled Steak Salad',
@@ -138,7 +138,7 @@ export const salads = [
     price: '17',
   },
   {
-    id: '3',
+    id: '16',
     img: '',
     alt: '',
     title: 'Chicken Caesar Salad',
@@ -147,7 +147,7 @@ export const salads = [
     price: '16',
   },
   {
-    id: '4',
+    id: '17',
     img: '',
     alt: '',
     title: 'Southwest Chicken Salad',
@@ -156,7 +156,7 @@ export const salads = [
     price: '17',
   },
   {
-    id: '5',
+    id: '18',
     img: '',
     alt: '',
     title: 'Italian Chopped Salad',
@@ -165,7 +165,7 @@ export const salads = [
     price: '16',
   },
   {
-    id: '6',
+    id: '19',
     img: '',
     alt: '',
     title: 'Side Mixed Green Salad or Side Caesar Salad',
@@ -176,7 +176,7 @@ export const salads = [
 
 export const entrees = [
   {
-    id: '1',
+    id: '20',
     img: '',
     alt: '',
     title: 'Oak Grilled Ribeye',
@@ -185,7 +185,7 @@ export const entrees = [
     price: '34 | Add Jumbo Shrimp Skewer - 12',
   },
   {
-    id: '2',
+    id: '21',
     img: '',
     alt: '',
     title: 'Blast Protein Bowl',
@@ -194,7 +194,7 @@ export const entrees = [
     price: '18',
   },
   {
-    id: '3',
+    id: '22',
     img: '',
     alt: '',
     title: `Chicken Strips N' Fries`,
@@ -203,7 +203,7 @@ export const entrees = [
     price: '17',
   },
   {
-    id: '4',
+    id: '23',
     img: '',
     alt: '',
     title: 'Oak Grilled Wild Caught Sockeye Salmon',
@@ -212,7 +212,7 @@ export const entrees = [
     price: '28',
   },
   {
-    id: '5',
+    id: '24',
     img: '',
     alt: '',
     title: 'Blast Comfort Bowl',
@@ -221,7 +221,7 @@ export const entrees = [
     price: '18',
   },
   {
-    id: '6',
+    id: '25',
     img: '',
     alt: '',
     title: `Fish 'N Chips`,
@@ -233,7 +233,7 @@ export const entrees = [
 
 export const pastas = [
   {
-    id: '1',
+    id: '26',
     img: '',
     alt: '',
     title: 'Lobster Mac',
@@ -242,7 +242,7 @@ export const pastas = [
     price: '19',
   },
   {
-    id: '2',
+    id: '27',
     img: '',
     alt: '',
     title: 'Buffalo Mac',
@@ -251,7 +251,7 @@ export const pastas = [
     price: '17',
   },
   {
-    id: '3',
+    id: '28',
     img: '',
     alt: '',
     title: 'Cowboy Mac',
@@ -260,7 +260,7 @@ export const pastas = [
     price: '17',
   },
   {
-    id: '4',
+    id: '29',
     img: '',
     alt: '',
     title: 'Primavera Mac',
@@ -272,7 +272,7 @@ export const pastas = [
 
 export const burgers = [
   {
-    id: '1',
+    id: '30',
     img: '',
     alt: '',
     title: 'Original Blast Burger',
@@ -281,7 +281,7 @@ export const burgers = [
     price: '15',
   },
   {
-    id: '2',
+    id: '31',
     img: '',
     alt: '',
     title: 'Cowboy Burger',
@@ -290,7 +290,7 @@ export const burgers = [
     price: '17',
   },
   {
-    id: '3',
+    id: '32',
     img: '',
     alt: '',
     title: 'Portobello & Swiss',
@@ -299,7 +299,7 @@ export const burgers = [
     price: 'TBD',
   },
   {
-    id: '4',
+    id: '33',
     img: '',
     alt: '',
     title: 'BCA Burger',
@@ -308,7 +308,7 @@ export const burgers = [
     price: '17',
   },
   {
-    id: '5',
+    id: '34',
     img: '',
     alt: '',
     title: 'The Local Burger',
@@ -317,7 +317,7 @@ export const burgers = [
     price: '18',
   },
   {
-    id: '6',
+    id: '35',
     img: '',
     alt: '',
     title: 'Ortega Chili & Pepper Jack',
@@ -329,7 +329,7 @@ export const burgers = [
 
 export const sandwiches = [
   {
-    id: '1',
+    id: '36',
     img: '',
     alt: '',
     title: 'Oak Grilled Chicken Club',
@@ -338,7 +338,7 @@ export const sandwiches = [
     price: '16',
   },
   {
-    id: '2',
+    id: '37',
     img: '',
     alt: '',
     title: 'BLTA',
@@ -347,7 +347,7 @@ export const sandwiches = [
     price: '15',
   },
   {
-    id: '3',
+    id: '38',
     img: '',
     alt: '',
     title: 'Slow Roasted Beef Dip',
@@ -356,7 +356,7 @@ export const sandwiches = [
     price: '15',
   },
   {
-    id: '4',
+    id: '39',
     img: '',
     alt: '',
     title: 'Texas Toast Grilled Cheese',
@@ -364,7 +364,7 @@ export const sandwiches = [
     price: '12',
   },
   {
-    id: '5',
+    id: '40',
     img: '',
     alt: '',
     title: 'Oak Grilled Tri-Tip',
@@ -372,7 +372,7 @@ export const sandwiches = [
     price: '14',
   },
   {
-    id: '6',
+    id: '41',
     img: '',
     alt: '',
     title: 'Chicken Dip',
@@ -384,7 +384,7 @@ export const sandwiches = [
 
 export const tacos = [
   {
-    id: '1',
+    id: '42',
     img: '',
     alt: '',
     title: 'Tacos',
@@ -398,7 +398,7 @@ export const tacos = [
 
 export const pizzas = [
   {
-    id: '1',
+    id: '43',
     img: '',
     alt: '',
     title: 'BBQ Chicken',
@@ -407,7 +407,7 @@ export const pizzas = [
     price: '14',
   },
   {
-    id: '2',
+    id: '44',
     img: '',
     alt: '',
     title: 'Buffalo Chicken',
@@ -416,7 +416,7 @@ export const pizzas = [
     price: '13',
   },
   {
-    id: '3',
+    id: '45',
     img: '',
     alt: '',
     title: 'Margherita Pizza',
@@ -425,7 +425,7 @@ export const pizzas = [
     price: '12',
   },
   {
-    id: '4',
+    id: '46',
     img: '',
     alt: '',
     title: 'Bacon & Brussels',
@@ -434,7 +434,7 @@ export const pizzas = [
     price: '15',
   },
   {
-    id: '5',
+    id: '47',
     img: '',
     alt: '',
     title: 'Santa Maria Valley Veggie',
@@ -443,7 +443,7 @@ export const pizzas = [
     price: '14',
   },
   {
-    id: '6',
+    id: '48',
     img: '',
     alt: '',
     title: 'Pesto Chicken',
@@ -452,7 +452,7 @@ export const pizzas = [
     price: '14',
   },
   {
-    id: '7',
+    id: '49',
     img: '',
     alt: '',
     title: 'Hawaiian Blast',
@@ -461,7 +461,7 @@ export const pizzas = [
     price: '13',
   },
   {
-    id: '8',
+    id: '50',
     img: '',
     alt: '',
     title: 'Orcutt Cowboy',
@@ -470,7 +470,7 @@ export const pizzas = [
     price: '15',
   },
   {
-    id: '9',
+    id: '51',
     img: '',
     alt: '',
     title: 'Thai Chicken',
@@ -479,7 +479,7 @@ export const pizzas = [
     price: '15',
   },
   {
-    id: '10',
+    id: '52',
     img: '',
     alt: '',
     title: 'Plain Janes',
@@ -488,7 +488,7 @@ export const pizzas = [
       'Wood-fired Cheese Pizza - 9 | Wood-fired Pepperoni Pizza - 10',
   },
   {
-    id: '11',
+    id: '53',
     img: '',
     alt: '',
     title: 'Build Your Own Pizza',
@@ -500,7 +500,7 @@ export const pizzas = [
 
 export const subs = [
   {
-    id: '1',
+    id: '54',
     img: '',
     alt: '',
     title: 'Meatball',
@@ -508,7 +508,7 @@ export const subs = [
     price: '13',
   },
   {
-    id: '2',
+    id: '55',
     img: '',
     alt: '',
     title: 'Pesto Chicken',
@@ -517,7 +517,7 @@ export const subs = [
     price: '13',
   },
   {
-    id: '3',
+    id: '56',
     img: '',
     alt: '',
     title: 'Spicy Italian',
@@ -526,7 +526,7 @@ export const subs = [
     price: '13',
   },
   {
-    id: '4',
+    id: '57',
     img: '',
     alt: '',
     title: 'Fresh Caprese',
@@ -538,7 +538,7 @@ export const subs = [
 
 export const kids = [
   {
-    id: '1',
+    id: '58',
     img: '',
     alt: '',
     title: 'Grilled Cheese & Fries',
@@ -546,7 +546,7 @@ export const kids = [
     price: '',
   },
   {
-    id: '2',
+    id: '59',
     img: '',
     alt: '',
     title: 'Chicken Strips & Fries',
@@ -554,7 +554,7 @@ export const kids = [
     price: '',
   },
   {
-    id: '3',
+    id: '60',
     img: '',
     alt: '',
     title: '1-Topping Wood Fired Pizza',
@@ -562,7 +562,7 @@ export const kids = [
     price: '',
   },
   {
-    id: '4',
+    id: '61',
     img: '',
     alt: '',
     title: `Mac N' Cheese`,
@@ -573,7 +573,7 @@ export const kids = [
 
 export const desserts = [
   {
-    id: '1',
+    id: '62',
     img: '',
     alt: '',
     title: 'Loaded Brookie',
@@ -581,7 +581,7 @@ export const desserts = [
     price: '14',
   },
   {
-    id: '2',
+    id: '63',
     img: '',
     alt: '',
     title: 'Fresh Baked Giant Chocolate Chip Cookie',
@@ -590,7 +590,7 @@ export const desserts = [
     price: '8',
   },
   {
-    id: '3',
+    id: '64',
     img: '',
     alt: '',
     title: 'New York Style Cheesecake',
@@ -599,7 +599,7 @@ export const desserts = [
     price: '9',
   },
   {
-    id: '4',
+    id: '65',
     img: '',
     alt: '',
     title: 'Mini Chocolate Sundae',
@@ -608,7 +608,7 @@ export const desserts = [
     price: '3',
   },
   {
-    id: '5',
+    id: '66',
     img: '',
     alt: '',
     title: 'Chocolate Chip Cookie Sundae',
@@ -617,7 +617,7 @@ export const desserts = [
     price: '13',
   },
   {
-    id: '6',
+    id: '67',
     img: '',
     alt: '',
     title: 'Crème Brulee Cheesecake',
@@ -626,36 +626,12 @@ export const desserts = [
     price: '9',
   },
   {
-    id: '7',
+    id: '68',
     img: '',
     alt: '',
     title: 'Death By Chocolate! 5 Layer Cake & Ice Cream',
     description:
       'A decadent chocolate 5 layer cake with Chocolate Frosting served with vanilla bean Ice Cream, Santa Maria Valley berries, drizzled with fresh-made berry sauce. Make sure to save room, you will not want to miss this!',
     price: '14',
-  },
-];
-
-export const items = [
-  {
-    id: '1',
-    title: 'Sicilian',
-    excerpt: 'Tasty sicilian style pizza. A ciao!',
-    description:
-      'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
-  },
-  {
-    id: '2',
-    title: 'Classic Combo',
-    excerpt: 'Classics never go out of style',
-    description:
-      'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
-  },
-  {
-    id: '3',
-    title: 'Triple pepperoni',
-    excerpt: 'Whats better than one type of pepperoni?',
-    description:
-      'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
   },
 ];
