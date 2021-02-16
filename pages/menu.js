@@ -1,39 +1,25 @@
+import { server } from '../config';
 import MenuList from '../components/MenuList';
 import menuStyles from '../styles/Menu.module.css';
-import {
-  appetizers,
-  salads,
-  entrees,
-  pastas,
-  burgers,
-  sandwiches,
-  tacos,
-  pizzas,
-  subs,
-  kids,
-  desserts,
-} from '../data';
 
-const menu = () => {
-  const items = [
-    appetizers,
-    salads,
-    entrees,
-    pastas,
-    burgers,
-    sandwiches,
-    tacos,
-    pizzas,
-    subs,
-    kids,
-    desserts,
-  ];
-
+const menu = (items) => {
   return (
     <div className={menuStyles.grid}>
       <MenuList items={items} />
     </div>
   );
+};
+
+export const getStaticProps = async () => {
+  const url = `${server}/static/data.json`;
+  const options = { headers: { 'Content-Type': 'application/json' } };
+  const items = await fetch(url, options).then((res) => res.json());
+
+  return {
+    props: {
+      items,
+    },
+  };
 };
 
 export default menu;
