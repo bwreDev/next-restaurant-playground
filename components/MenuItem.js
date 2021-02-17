@@ -1,12 +1,18 @@
-import menuStyles from '../styles/Menu.module.css';
+import Image from 'next/image';
 
 const MenuItem = ({ item }) => {
   return (
-    <div className={menuStyles.card}>
+    <>
       <h3>{item.title}</h3>
+      <Image
+        src={(item.img, '/vercel.svg')}
+        alt={item.alt}
+        width={100}
+        height={100}
+      />
       <p>{item.description}</p>
       <span>{item.price}</span>
-    </div>
+    </>
   );
 };
 

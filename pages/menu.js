@@ -1,23 +1,19 @@
-import { server } from '../config';
+import { foodItems } from '../public/data';
 import MenuList from '../components/MenuList';
 import menuStyles from '../styles/Menu.module.css';
 
-const menu = (items) => {
+const menu = ({ foodItems }) => {
   return (
     <div className={menuStyles.grid}>
-      <MenuList items={items} />
+      <MenuList foodItems={foodItems} />
     </div>
   );
 };
 
 export const getStaticProps = async () => {
-  const url = `${server}/static/data.json`;
-  const options = { headers: { 'Content-Type': 'application/json' } };
-  const items = await fetch(url, options).then((res) => res.json());
-
   return {
     props: {
-      items,
+      foodItems,
     },
   };
 };

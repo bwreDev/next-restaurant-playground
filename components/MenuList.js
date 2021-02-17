@@ -1,11 +1,11 @@
-import MenuItem from './MenuItem';
+import MenuSection from './MenuSection';
 import menuStyles from '../styles/Menu.module.css';
 
-const MenuList = ({ items }) => {
+const MenuList = ({ foodItems }) => {
   return (
     <div className={menuStyles.grid}>
-      {items.map((item) => (
-        <MenuItem item={item} />
+      {foodItems.map((section) => (
+        <MenuSection key={section.name} section={section} />
       ))}
     </div>
   );
