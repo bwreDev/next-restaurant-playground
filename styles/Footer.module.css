@@ -1,6 +1,6 @@
-.nav {
-  height: 10vh;
-  padding: 5vh;
+.footer {
+  height: 75px;
+  padding: 10px;
   background: #000;
   color: #fff;
   display: flex;
@@ -8,21 +8,11 @@
   justify-content: flex-start;
 }
 
-.nav ul {
+.footer ul {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
-}
-
-.nav ul li a {
-  margin: 5px 15px;
-}
-
-.nav ul li a:hover {
-  border-bottom: 2px solid white;
-  border-top: 2px solid white;
-  font-size: 1.2em;
 }
 
 .logo {
@@ -31,6 +21,17 @@
   cursor: pointer;
 }
 
-.logo:hover {
+.ico {
+  margin-right: 15px;
+  height: 1.5rem;
+}
+
+.logo:hover,
+.ico:hover {
   transform: scale(1.5);
+}
+
+.copyright {
+  color: darkgrey;
+  font-size: clamp(0.5rem, 2vw, 1.5rem);
 }
