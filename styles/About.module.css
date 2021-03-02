@@ -1,6 +1,10 @@
 .about {
-	color: #fff;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hours {
+  list-style: none;
 }
