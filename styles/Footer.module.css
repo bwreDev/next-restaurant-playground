@@ -1,37 +1,37 @@
 .footer {
-  height: 75px;
-  padding: 10px;
-  background: #000;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+	height: 75px;
+	padding: 10px;
+	background: #000;
+	color: #fff;
+	display: flex;
+	align-items: center;
 }
 
 .footer ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
 }
 
 .logo {
-  height: 40px;
-  margin-right: 15px;
-  cursor: pointer;
+	height: 3rem;
+	margin-right: 15px;
+	cursor: pointer;
 }
 
 .ico {
-  margin-right: 15px;
-  height: 1.5rem;
+	margin-right: 15px;
+	height: 1.5rem;
 }
 
 .logo:hover,
 .ico:hover {
-  transform: scale(1.5);
+	transform: scale(1.5);
 }
 
 .copyright {
-  color: darkgrey;
-  font-size: clamp(0.5rem, 2vw, 1.5rem);
+	color: darkgrey;
+	font-size: 0.5rem;
+	margin-left: 20vw;
 }

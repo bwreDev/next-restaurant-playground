@@ -16,7 +16,7 @@ const Meta = ({ title, keywords, description }) => {
 };
 
 Meta.defaultProps = {
-	title: 'Blast 825°',
+	title: 'Blast 825° Brewery',
 	keywords:
 		'blast825, blast 825, orcutt, california, bar restaurant, bars and restaurants, local restaurants, places to eat, gift cards, bar, restaurant, pizza, beer',
 	description: `Life's too short, have a blast! Locally sourced, high quality ingredients and the best brews from the central coast.`,
